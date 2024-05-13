@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Mar 10 11:03:08 2024
+Created on Sun May 10 11:03:08 2023
 
 @author: suraj
 """
@@ -15,6 +15,7 @@ technologies   = ({
     'Duration':['30day','50days','55days','40days','60days','35day','','50days'],
     'Discount':[1000,2300,1000,1200,2500,1300,1400,1600]
           })
+#add the label to rows
 row_labels=['r0','r1','r2','r3','r4','r5','r6','r7']
 df = pd.DataFrame(technologies, index=row_labels)
 print(df)
